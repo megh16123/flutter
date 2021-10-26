@@ -9,12 +9,22 @@ class HomePage extends StatelessWidget {
     String name = 'fsf fsdkjfb fsdkfb';
     return Scaffold(
         appBar: AppBar(
-          title: Text("first Flutter"),
+          title: Text("The First App"),
         ),
         body: Center(
-          child: Text("Hello $day ${name.toUpperCase()}  World")),
+          child: Text("Hello $day ${name.toUpperCase()}  World",
+          style: TextStyle(
+            fontSize: 40,
+            fontWeight: FontWeight.bold,
+            color: Colors.blue,
+          
+          ),
+          textAlign: TextAlign.left,
+          )),
+           
       drawer: Drawer(),
-      );
+      
+  );
     
   }
 }
