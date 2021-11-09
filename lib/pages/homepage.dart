@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("The First App"),
+        
         ),
         body: Center(
           child: Text("Hello $day ${name.toUpperCase()}  World",
